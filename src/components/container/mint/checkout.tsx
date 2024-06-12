@@ -54,8 +54,8 @@ export default function CheckoutForm() {
         <img src={selectedNFTImage} alt="" />
       </aside>
       <div className="space-y-5">
-        <span>{title} #312</span>
-        <h1 className="text-5xl font-bold">{title} #312</h1>
+        <span>{title}</span>
+        <h1 className="text-5xl font-bold">{title}</h1>
         <p className="text-white/70">
         {selectedNFTContent}
         </p>
