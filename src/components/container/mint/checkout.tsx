@@ -169,11 +169,13 @@ function Counter({ selectedNFT }: { selectedNFT: string }) {
 }
 
 function Properties() {
+  const title = useParams().title as SelectedNFTTitle;
+
   const properties = [
     {
       type: "Accessories",
-      title: "Sole",
-      description: "33% have this trait",
+      title: title === "Hydrated" ? "Fluid" : "Sole",
+      description: "20% have this trait",
     },
   ];
 
